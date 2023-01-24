@@ -45,6 +45,12 @@
     }
     #bg>div{
         color: black;
+        padding: 0px !important;
+    }
+    #carouselExample{
+        background-image: url('../images/slider-1.jpg') !important;
+    }
+    #carouselExample>div>div{
         padding: 0em !important;
     }
 }
