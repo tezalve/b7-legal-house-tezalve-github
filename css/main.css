@@ -6,6 +6,8 @@
     background-color: rgb(228, 228, 228);
 }
 
+/* accordion style */
+
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 .accordion-button:not(.collapsed)::after {
   content: "\f057";
@@ -22,6 +24,10 @@
   background-image: none;
 }
 
+.accordion-body{
+    background:rgb(230, 230, 230);
+}
+
 .card-header.collapsed {
     background:rgb(230, 230, 230);
 }
@@ -29,6 +35,16 @@
     background:rgb(230, 230, 230);
 }
 
-.accordion-body{
-    background:rgb(230, 230, 230);
+/* responsive */
+
+@media screen and (max-width:668px){
+    #bg{
+        margin: 0em;
+        font-size: 0.8em;
+        background-image: none !important;
+    }
+    #bg>div{
+        color: black;
+        padding: 0em !important;
+    }
 }

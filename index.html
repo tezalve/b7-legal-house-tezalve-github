@@ -41,7 +41,27 @@
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
-                <button class="ms-5 btn btn-info btn-lg" type="submit">Free Consultation</button>
+                <!-- modal button -->
+                <button class="ms-5 btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Free Consultation</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Justice Modal</h5>
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                            This is a modal, and call the number on the footer for the free thing
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
         
@@ -124,35 +144,47 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <div class="accordion-button collapsed card-header" type="" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Accordion Item #3
+                                Difference between Flex-box & grid?
                                 </div>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Flexbox was created for layout in one dimension, which can be either a row or a column, as opposed to CSS Grid Layout, which was developed for layout in two dimensions. Grid was intended for two-dimensional layout with simultaneous rows and columns.
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <div class="accordion-button collapsed card-header" type="" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Accordion Item #3
+                                        What is the purpose of media query?
                                     </div>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        We can use media queries to apply CSS styles based on the basic kind of a device (such as print vs. screen) or other details like screen resolution or browser viewport width.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingThree">
                                     <div class="accordion-button collapsed card-header" type="" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"     aria-controls="collapseThree">
-                                        Accordion Item #3
+                                        What is css box model & how does it work?
                                     </div>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        The phrase "box model" is used in CSS when discussing design and layout. Every HTML element is essentially enclosed in a box thanks to the CSS box model. It is made up of margins, borders, padding, and the content itself.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <div class="accordion-button collapsed card-header" type="" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"     aria-controls="collapseFour">
+                                        What is semantic tag?
+                                    </div>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                        Search engines and other user devices can better understand the significance and context of online pages thanks to semantic HTML elements. Semantic components make web pages considerably easier to read. It is more easily accessible. Better user experience is provided.
                                     </div>
                                 </div>
                             </div>
@@ -176,8 +208,7 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <img src="images/logo.png" alt="">
                         <p>
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
+                            This is a made up company solely for the purposes of learnig to make a website
                         </p>
                     </div>
                     
