@@ -5,3 +5,30 @@
 #card > div > div:hover{
     background-color: rgb(228, 228, 228);
 }
+
+@import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
+.accordion-button:not(.collapsed)::after {
+  content: "\f057";
+  font-family: "Font Awesome 5 Free";
+  color: rgb(136, 136, 136);
+  background-image: none;
+}
+
+.accordion-button.collapsed::after {
+  content: "\f058";
+  color: rgb(136, 136, 136);
+  font-weight: 400;
+  font-family: "Font Awesome 5 Free";
+  background-image: none;
+}
+
+.card-header.collapsed {
+    background:rgb(230, 230, 230);
+}
+.card-header:not(.collapsed) {
+    background:rgb(230, 230, 230);
+}
+
+.accordion-body{
+    background:rgb(230, 230, 230);
+}
